@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 Suite Setup    Set Browser
 Suite Teardown    Close Browser
-Test Teardown    Log    This test was completed by %{username} on %{os}
+Test Teardown    Log    This test was executed by %{username} on %{os}
 
 *** Test Cases ***
 PositiveLoginTest
